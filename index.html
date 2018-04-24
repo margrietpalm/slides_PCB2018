@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Heritable tumor cell division rate heterogeneity induces clonal dominance</title>
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/white.css">
+		<link rel="stylesheet" href="css/custom.css">
+
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+	  <div class="reveal">
+	    <div class="slides">
+	      <section><img src="images/title.svg"/></section>
+	      <section style="text-align: left;" data-markdown="markdown/slides.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section><img src="images/title.svg"/></section>
+				<section style="text-align: left;" data-markdown="markdown/backup.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+	    </div>
+	  </div>
+
+	  <script src="reveal/lib/js/head.min.js"></script>
+	  <script src="reveal/js/reveal.js"></script>
+
+
+	  <script>
+	    // More info https://github.com/hakimel/reveal.js#configuration
+	    Reveal.initialize({
+
+	    width: 960,
+	    height: 720,
+
+	    // Factor of the display size that should remain empty around the content
+	    margin: 0.1,
+	    history: true,
+	    controls: false,
+	    progress: true,
+	    slideNumber: "c",
+
+	    showNotes: false,
+
+
+	    // More info https://github.com/hakimel/reveal.js#dependencies
+	    dependencies: [
+	    { src: 'reveal/plugin/markdown/marked.js' },
+	    { src: 'reveal/plugin/markdown/markdown.js' },
+	    { src: 'reveal/plugin/notes/notes.js', async: true },
+	    { src: 'reveal/plugin/math/math.js', async: true },
+	    { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+	    ]
+	    });
+	  </script>
+	</body>
+</html>
