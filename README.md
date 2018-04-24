@@ -1,1 +1,1 @@
-# slides_PCB2018
+Slides presenting the work described in [Palm MM, Elemans M, Beltman JB (2018) Heritable tumor cell division rate heterogeneity induces clonal dominance. PLoS Comput Biol 14(2): e1005954. https://doi.org/10.1371/journal.pcbi.1005954](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005954).
